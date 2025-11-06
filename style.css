@@ -1,0 +1,104 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #000000;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav h1 {
+    color: #1DB954;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #1DB954;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.destaque h2 {
+    margin-bottom: 2rem;
+}
+
+.grid-musicas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+/* Estilo do card de música */
+.musica-card {
+    background-color: #282828;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.musica-card:hover {
+    background-color: #383838;
+}
+
+.musica-card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.musica-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.musica-card p {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #000000;
+    color: #b3b3b3;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
