@@ -13,61 +13,61 @@ const musicas = [
     {
         titulo: "Cruel Summer",
         artista: "Taylor Swift",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_2013.jpg/1280px-Altja_j%C3%B5gi_2013.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1501436513145-30f24e97f0ed?auto=format&fit=crop&w=800",
         genero: "Pop"
     },
     {
         titulo: "As It Was",
         artista: "Harry Styles",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Sunset_at_Tropical_Islands.jpg/1280px-Sunset_at_Tropical_Islands.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800",
         genero: "Pop"
     },
     {
         titulo: "Anti-Hero",
         artista: "Taylor Swift",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Sunrise_at_Bryce_Canyon.jpg/1280px-Sunrise_at_Bryce_Canyon.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?auto=format&fit=crop&w=800",
         genero: "Pop"
     },
     {
         titulo: "About Damn Time",
         artista: "Lizzo",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Rainforest_Blue_Mountains.jpg/1280px-Rainforest_Blue_Mountains.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?auto=format&fit=crop&w=800",
         genero: "Pop"
     },
     {
         titulo: "Break My Soul",
         artista: "Beyoncé",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Kolkata_Victoria_Memorial_at_night.jpg/1280px-Kolkata_Victoria_Memorial_at_night.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800",
         genero: "Pop/R&B"
     },
     {
         titulo: "Stay With Me",
         artista: "Calvin Harris",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Northern_Lights_in_Iceland.jpg/1280px-Northern_Lights_in_Iceland.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800",
         genero: "Dance/Electronic"
     },
     {
         titulo: "I'm Good (Blue)",
         artista: "David Guetta & Bebe Rexha",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Underwater_photography_of_coral_reef.jpg/1280px-Underwater_photography_of_coral_reef.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?auto=format&fit=crop&w=800",
         genero: "Dance/Pop"
     },
     {
         titulo: "Unholy",
         artista: "Sam Smith & Kim Petras",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Autumn_forest_with_fog.jpg/1280px-Autumn_forest_with_fog.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1542856391-010fb87dcfed?auto=format&fit=crop&w=800",
         genero: "Pop"
     },
     {
         titulo: "Late Night Talking",
         artista: "Harry Styles",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Spring_cherry_blossoms_in_Japan.jpg/1280px-Spring_cherry_blossoms_in_Japan.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?auto=format&fit=crop&w=800",
         genero: "Pop"
     },
     {
         titulo: "Karma",
         artista: "Taylor Swift",
-        capaUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Milky_Way_over_Lake_Louise.jpg/1280px-Milky_Way_over_Lake_Louise.jpg",
+        capaUrl: "https://images.unsplash.com/photo-1682686580036-b5e25932ce9a?auto=format&fit=crop&w=800",
         genero: "Pop"
     }
 ];
