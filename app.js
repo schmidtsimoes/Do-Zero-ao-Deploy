@@ -11,39 +11,63 @@ let playlists = [
 // Array de músicas (banco de dados simulado)
 const musicas = [
     {
-        titulo: "vampire",
-        artista: "Olivia Rodrigo",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273af52c228c5c4c3325ce6ab4a",
-        genero: "Pop"
-    },
-    {
-        titulo: "Last Night",
-        artista: "Morgan Wallen",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273559fd3cc1fe11a1c4a90e767",
-        genero: "Country"
-    },
-    {
-        titulo: "Flowers",
-        artista: "Miley Cyrus",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273f429549123dbe8552764ba1d",
-        genero: "Pop"
-    },
-    {
         titulo: "Cruel Summer",
         artista: "Taylor Swift",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/taylor-swift-lover.jpg",
         genero: "Pop"
     },
     {
-        titulo: "Paint The Town Red",
-        artista: "Doja Cat",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273da59c8382d5c1f5174b2f8ce",
-        genero: "Hip-Hop"
+        titulo: "As It Was",
+        artista: "Harry Styles",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/harry-styles-harrys-house.jpg",
+        genero: "Pop"
     },
     {
-        titulo: "Karma",
+        titulo: "Anti-Hero",
         artista: "Taylor Swift",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/taylor-swift-midnights.jpg",
+        genero: "Pop"
+    },
+    {
+        titulo: "About Damn Time",
+        artista: "Lizzo",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/lizzo-special.jpg",
+        genero: "Pop"
+    },
+    {
+        titulo: "Break My Soul",
+        artista: "Beyoncé",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/beyonce-renaissance.jpg",
+        genero: "Pop/R&B"
+    },
+    {
+        titulo: "Stay With Me",
+        artista: "Calvin Harris",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/calvin-harris-funk-wav.jpg",
+        genero: "Dance/Electronic"
+    },
+    {
+        titulo: "I'm Good (Blue)",
+        artista: "David Guetta & Bebe Rexha",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/david-guetta-im-good.jpg",
+        genero: "Dance/Pop"
+    },
+    {
+        titulo: "Unholy",
+        artista: "Sam Smith & Kim Petras",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/sam-smith-gloria.jpg",
+        genero: "Pop"
+    },
+    {
+        titulo: "Late Night Talking",
+        artista: "Harry Styles",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/harry-styles-harrys-house.jpg",
+        genero: "Pop"
+    },
+    {
+        titulo: "About That Time",
+        artista: "Lizzo",
+        capaUrl: "https://raw.githubusercontent.com/schmidtsimoes/music-covers/main/lizzo-special.jpg",
         genero: "Pop"
     }
 ];
