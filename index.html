@@ -5,34 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoundWave - Your Music Universe</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Cabeçalho da página -->
-    <header>
-        <nav>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">
             <h1>SoundWave</h1>
+        </div>
+        <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#biblioteca">Biblioteca</a></li>
-                <li><a href="#buscar">Buscar</a></li>
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#buscar"><i class="fas fa-search"></i> Buscar</a></li>
+                <li><a href="#biblioteca"><i class="fas fa-book"></i> Biblioteca</a></li>
+                <li><a href="#favoritos"><i class="fas fa-heart"></i> Favoritos</a></li>
+                <li><a href="#playlists"><i class="fas fa-list"></i> Playlists</a></li>
             </ul>
         </nav>
-    </header>
+        <div class="playlists-container">
+            <h3>Suas Playlists</h3>
+            <ul id="user-playlists">
+                <li><a href="#"><i class="fas fa-plus-circle"></i> Criar Playlist</a></li>
+            </ul>
+        </div>
+    </aside>
 
     <!-- Conteúdo principal -->
     <main>
+        <header class="main-header">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="O que você quer ouvir?">
+            </div>
+            <div class="user-menu">
+                <button class="profile-button">
+                    <i class="fas fa-user"></i>
+                    <span>Meu Perfil</span>
+                </button>
+            </div>
+        </header>
+
         <section class="destaque">
-            <h2>Músicas em Destaque</h2>
+            <h2>Músicas em Alta</h2>
             <div id="lista-de-musicas" class="grid-musicas">
                 <!-- Os cards de música serão inseridos aqui via JavaScript -->
             </div>
         </section>
+
+        <section class="playlists-section">
+            <h2>Suas Playlists</h2>
+            <div class="playlist-grid" id="playlist-container">
+                <!-- Playlists serão inseridas aqui via JavaScript -->
+            </div>
+        </section>
     </main>
 
-    <!-- Rodapé da página -->
-    <footer>
-        <p>&copy; 2023 SpotCopilot. Criado para fins educacionais.</p>
-    </footer>
+    <!-- Player de música fixo -->
+    <div class="music-player">
+        <div class="now-playing">
+            <img src="" alt="" id="current-song-image">
+            <div class="song-info">
+                <h4 id="current-song-title">Selecione uma música</h4>
+                <p id="current-song-artist"></p>
+            </div>
+            <button class="favorite-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="player-controls">
+            <button class="control-btn"><i class="fas fa-step-backward"></i></button>
+            <button class="control-btn play-btn"><i class="fas fa-play"></i></button>
+            <button class="control-btn"><i class="fas fa-step-forward"></i></button>
+        </div>
+        <div class="player-progress">
+            <span class="time current">0:00</span>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <span class="time total">0:00</span>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>

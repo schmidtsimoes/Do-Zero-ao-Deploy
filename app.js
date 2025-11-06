@@ -1,34 +1,40 @@
 // Array de músicas (banco de dados simulado)
 const musicas = [
     {
-        titulo: "Bohemian Rhapsody",
-        artista: "Queen",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273566d4ee496766672400a06dd"
+        titulo: "vampire",
+        artista: "Olivia Rodrigo",
+        capaUrl: "https://i.scdn.co/image/ab67616d0000b273af52c228c5c4c3325ce6ab4a",
+        genero: "Pop"
     },
     {
-        titulo: "Billie Jean",
-        artista: "Michael Jackson",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97"
+        titulo: "Last Night",
+        artista: "Morgan Wallen",
+        capaUrl: "https://i.scdn.co/image/ab67616d0000b273559fd3cc1fe11a1c4a90e767",
+        genero: "Country"
     },
     {
-        titulo: "Imagine",
-        artista: "John Lennon",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273872d05a85022dba32a278b49"
+        titulo: "Flowers",
+        artista: "Miley Cyrus",
+        capaUrl: "https://i.scdn.co/image/ab67616d0000b273f429549123dbe8552764ba1d",
+        genero: "Pop"
     },
     {
-        titulo: "Sweet Child O' Mine",
-        artista: "Guns N' Roses",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b2736a72a77f74b2ca5c4a21979a"
+        titulo: "Cruel Summer",
+        artista: "Taylor Swift",
+        capaUrl: "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
+        genero: "Pop"
     },
     {
-        titulo: "Smooth Criminal",
-        artista: "Michael Jackson",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97"
+        titulo: "Paint The Town Red",
+        artista: "Doja Cat",
+        capaUrl: "https://i.scdn.co/image/ab67616d0000b273da59c8382d5c1f5174b2f8ce",
+        genero: "Hip-Hop"
     },
     {
-        titulo: "Hotel California",
-        artista: "Eagles",
-        capaUrl: "https://i.scdn.co/image/ab67616d0000b273d628a4046d9e40c70b05a975"
+        titulo: "Karma",
+        artista: "Taylor Swift",
+        capaUrl: "https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5",
+        genero: "Pop"
     }
 ];
 
